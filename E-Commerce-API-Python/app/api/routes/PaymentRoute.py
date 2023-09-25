@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
-from app.models.PaymentModel import Payment
-from app.schemas.PaymentSchema import PaymentBase, PaymentCreate, PaymentUpdate
-from app.core.database import SessionLocal
+from ...models.PaymentModel import Payment
+from ...schemas.PaymentSchema import PaymentBase, PaymentCreate, PaymentUpdate
+from ...core.database import SessionLocal
 
 router = APIRouter()
 

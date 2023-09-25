@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
-from app.models.ShippingModel import ShippingAddress
-from app.schemas.ShippingSchema import ShippingAddressBase, ShippingAddressCreate, ShippingAddressUpdate
-from app.core.database import SessionLocal
+from ...models.ShippingModel import ShippingAddress
+from ...schemas.ShippingSchema import ShippingAddressBase, ShippingAddressCreate, ShippingAddressUpdate
+from ...core.database import SessionLocal
 
 router = APIRouter()
 

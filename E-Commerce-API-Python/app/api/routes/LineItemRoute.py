@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
-from app.models.LineItemModel import LineItem
-from app.schemas.LineItemSchema import LineItemBase, LineItemCreate, LineItemUpdate
-from app.core.database import SessionLocal
+from ...models.LineItemModel import LineItem
+from ...schemas.LineItemSchema import LineItemBase, LineItemCreate, LineItemUpdate
+from ...core.database import SessionLocal
 
 router = APIRouter()
 

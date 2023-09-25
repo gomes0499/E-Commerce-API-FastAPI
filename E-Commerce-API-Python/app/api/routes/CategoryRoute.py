@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
-from app.models.CategoryModel import Category
-from app.schemas.CategorySchema import CategoryBase, CategoryCreate, CategoryUpdate
-from app.core.database import SessionLocal
+from ...models.CategoryModel import Category
+from ...schemas.CategorySchema import CategoryBase, CategoryCreate, CategoryUpdate
+from ...core.database import SessionLocal
 
 router = APIRouter()
 

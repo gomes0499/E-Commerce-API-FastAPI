@@ -5,57 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dafdb7b-3761-4520-8902-dd3f71b8dbf3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/CategoryRoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/InvoiceRoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/OrderRoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/PaymentRoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ProductRoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/UserRoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/CategoryModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/InvoiceModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/LineItemModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/OrderModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/ProductModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/ShippingModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/CategorySchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/InvoiceSchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/LineItemSchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/OrderSchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/PaymentSchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/ProductSchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/ShippingSchema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/UserSchema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/E-Commerce-API-FastAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/E-Commerce-API-FastAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/PaymentModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/services/AuthService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/services/EmailService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/tasks/EmailTasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/CategoryRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/CategoryRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/InvoiceRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/InvoiceRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/LineItemRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/LineItemRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/OrderRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/OrderRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/PaymentRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/PaymentRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ProductRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ProductRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ShippingRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ShippingRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/UserRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/UserRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/core/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/core/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/category.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/invoice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/line_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/payment_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/shipping_address.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/UserModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/category.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/invoice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/line_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/payment_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/shipping_address.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/schemas/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/services/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/services/email.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/tasks/email_tasks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/CategoryModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/CategoryModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/InvoiceModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/InvoiceModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/LineItemModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/LineItemModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/OrderModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/OrderModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/PaymentModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/PaymentModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/ProductModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/ProductModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/ShippingModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/ShippingModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/UserModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/app/models/UserModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/services/AuthService.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/services/EmailService.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/app/tasks/EmailTasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce-API-Python/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce-API-Python/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +42,33 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/CategoryRoute.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/InvoiceRoute.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/LineItemRoute.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/OrderRoute.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/PaymentRoute.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ProductRoute.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/ShippingRoute.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/api/routes/UserRoute.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/core/database.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/main.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/models/OrderModel.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E-Commerce-API-Python/app/models/UserModel.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,6 +80,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2VhcfWfsujx6MRL7jwyuaegsqLe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,7 +99,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -132,7 +126,9 @@
       <workItem from="1695303077142" duration="24000" />
       <workItem from="1695369011620" duration="4696000" />
       <workItem from="1695373729739" duration="1396000" />
-      <workItem from="1695375137821" duration="1160000" />
+      <workItem from="1695375137821" duration="1383000" />
+      <workItem from="1695382454175" duration="222000" />
+      <workItem from="1695645828788" duration="8328000" />
     </task>
     <servers />
   </component>
@@ -140,6 +136,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/E_Commerce_API_FastAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1695291881777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-Commerce-API-Python/app" />
+    <SUITE FILE_PATH="coverage/E_Commerce_API_FastAPI$teste.coverage" NAME="teste Coverage Results" MODIFIED="1695647443180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-Commerce-API-Python/app" />
+    <SUITE FILE_PATH="coverage/E_Commerce_API_FastAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1695649260061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E-Commerce-API-Python/app" />
   </component>
 </project>
