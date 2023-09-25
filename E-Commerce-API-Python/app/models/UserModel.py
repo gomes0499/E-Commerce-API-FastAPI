@@ -11,3 +11,6 @@ class User(Base):
     email = Column(String(100), unique=True)
     password = Column(String(100))
     created_at = Column(DateTime, default=datetime.utcnow())
+
+    orders = relationship("Order", back_populates="user")
+    shippings = relationship("Shipping", back_populates="user")

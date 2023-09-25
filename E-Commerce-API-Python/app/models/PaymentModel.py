@@ -13,4 +13,5 @@ class PaymentModel(Base):
     amount = Column(Float, nullable=False)
     status = Column(String, index=True)  # e.g., "Completed", "Pending", "Failed"
 
-    order = relationship("OrderModel", back_populates="payment")
+    order_id = Column(Integer, ForeignKey('orders.id'))
+    order = relationship("Order", back_populates="payment")
