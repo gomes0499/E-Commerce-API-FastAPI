@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
-from app.models.InvoiceModel import Invoice
-from app.schemas.InvoiceSchema import InvoiceBase, InvoiceCreate, InvoiceUpdate
-from app.core.database import SessionLocal
+from ...models.InvoiceModel import Invoice
+from ...schemas.InvoiceSchema import InvoiceBase, InvoiceCreate, InvoiceUpdate
+from ...core.database import SessionLocal
 
 router = APIRouter()
 

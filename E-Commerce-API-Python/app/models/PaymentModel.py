@@ -1,9 +1,9 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
-from app.core.database import Base
+from ..core.database import Base
 
 
-class PaymentModel(Base):
+class Payment(Base):
     __tablename__ = "payments"
 
     id = Column(Integer, primary_key=True, index=True)

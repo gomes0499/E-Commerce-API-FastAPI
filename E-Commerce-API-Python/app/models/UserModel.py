@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Sequence, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from app.core.database import Base
+from ..core.database import Base
 
 
 class User(Base):
@@ -12,5 +12,7 @@ class User(Base):
     password = Column(String(100))
     created_at = Column(DateTime, default=datetime.utcnow())
 
+
     orders = relationship("Order", back_populates="user")
-    shippings = relationship("Shipping", back_populates="user")
+    shippings = relationship("ShippingAddress", back_populates="user")
+

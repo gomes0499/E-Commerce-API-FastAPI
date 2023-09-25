@@ -4,3 +4,4 @@ fastapi
 pydantic
 sqlalchemy
 celery
+psycopg2-binary

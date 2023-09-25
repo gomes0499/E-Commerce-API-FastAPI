@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey
 from datetime import datetime
-from app.core.database import Base
+from ..core.database import Base
 from sqlalchemy.orm import relationship
 
 
@@ -13,3 +13,4 @@ class Invoice(Base):
 
     order_id = Column(Integer, ForeignKey('orders.id'))
     order = relationship("Order", back_populates="invoice")
+
