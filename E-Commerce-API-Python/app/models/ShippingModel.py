@@ -16,5 +16,3 @@ class ShippingAddress(Base):
     order_id = Column(Integer, ForeignKey('orders.id'))
     user = relationship("User", back_populates="shippings")
     orders = relationship("Order", back_populates="shipping", foreign_keys=[order_id])
-
-
