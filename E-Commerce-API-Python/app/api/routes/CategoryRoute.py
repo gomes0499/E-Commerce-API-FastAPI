@@ -6,8 +6,6 @@ from ...core.database import SessionLocal
 
 router = APIRouter()
 
-
-# Dependência para obter o banco de dados (pode ser reutilizada se já estiver definida em outro arquivo)
 def get_db():
     db = SessionLocal()
     try:
